@@ -11,7 +11,7 @@
     "babel": "babel --out-dir lib src",
     "build": "npm run styles && npm run lib",
     "prepublish": "npm run build",
-    "release": "npm run build && webpack --config build/webpack.config.min.js",
+    "release": "npm run build && webpack --config build/webpack.config.min.js"
   },
   "contributors": [],
   "author": "ZippyUI <contact@zippyui.com>",
