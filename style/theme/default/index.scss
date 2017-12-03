@@ -115,6 +115,7 @@ $base: 'react-date-picker__month-view';
       max-width: $DAY_SIZE;
       max-height: $DAY_SIZE;
 
+      -js-display: flex;
       display: flex;
       align-items: center;
       justify-content: center;
